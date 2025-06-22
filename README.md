@@ -31,7 +31,7 @@ The goal is to minimize conflicts in scheduling scenarios where resources such a
 
 ### 2. **Welsh-Powell Algorithm**
 - A more efficient method that sorts nodes by degrees before coloring.
-- Time Complexity: `O(V^2)`
+- Time Complexity: `O(VlogV)`
 
 ### 3. **DSATUR Algorithm**
 - Dynamically selects the vertex with the highest saturation degree for coloring.
@@ -42,7 +42,8 @@ The goal is to minimize conflicts in scheduling scenarios where resources such a
 
 ---
 ## ⚙️ Technologies Used
-- **Python**
+- **HTML/CSS/JavaScript**
+- **ReactJS**
 - **NetworkX** (Graph visualization and manipulation)
 - **Matplotlib** (For visual representation)
 - **Numpy and Pandas** (For data handling)
