@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# Optimization of Scheduling Problems using Graph Coloring Algorithms
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Image](https://github.com/Anshika-111105/Optimization-of-Scheduling-Problems-using-Graph-Coloring-Algorithms/blob/main/Image6.png)
 
-## Available Scripts
+## 📌 Introduction
+Scheduling problems are prevalent in various domains such as examination timetabling, task scheduling in operating systems, and resource allocation. To optimize such problems efficiently, **Graph Coloring Algorithms** provide an effective solution by minimizing conflicts and ensuring optimal resource utilization.
 
-In the project directory, you can run:
+This project aims to implement graph coloring algorithms to optimize scheduling problems, focusing on techniques like:
+- **Greedy Algorithm**
+- **Welsh-Powell Algorithm**
+- **DSATUR Algorithm**
 
-### `npm start`
+![Image](https://github.com/Anshika-111105/Optimization-of-Scheduling-Problems-using-Graph-Coloring-Algorithms/blob/main/Image1.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Image](https://github.com/Anshika-111105/Optimization-of-Scheduling-Problems-using-Graph-Coloring-Algorithms/blob/main/Image2.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧩 Problem Statement
+The goal is to minimize conflicts in scheduling scenarios where resources such as time slots, classrooms, or processors must be allocated efficiently. The project addresses:
+- Conflict-free scheduling
+- Minimization of resource usage
+- Enhanced efficiency through algorithm optimization
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📈 Algorithms Implemented
+### 1. **Greedy Algorithm**
+- Assigns colors (resources) sequentially to nodes (tasks/events) with minimal conditions.
+- Time Complexity: `O(V + E)`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. **Welsh-Powell Algorithm**
+- A more efficient method that sorts nodes by degrees before coloring.
+- Time Complexity: `O(V^2)`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. **DSATUR Algorithm**
+- Dynamically selects the vertex with the highest saturation degree for coloring.
+- Time Complexity: `O(V^2)`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
+![Image](https://github.com/Anshika-111105/Optimization-of-Scheduling-Problems-using-Graph-Coloring-Algorithms/blob/main/Image3.png)
 
-### `npm run eject`
+---
+## ⚙️ Technologies Used
+- **Python**
+- **NetworkX** (Graph visualization and manipulation)
+- **Matplotlib** (For visual representation)
+- **Numpy and Pandas** (For data handling)
+- **Development Environment: Jupyter Notebook / VS Code** 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Installation & Setup
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/Optimization-of-Scheduling-Problems-using-Graph-Coloring-Algorithms.git
+```
+2. Navigate to the project directory:
+```bash
+cd Optimization-of-Scheduling-Problems-using-Graph-Coloring-Algorithms
+```
+3. Install dependencies:
+```bash
+pip install networkx matplotlib
+```
+4. Run the application:
+```bash
+python main.py
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📋 Usage
+- Input your scheduling requirements in the defined format.
+- Choose your desired graph coloring algorithm (Greedy, Welsh-Powell, or DSATUR).
+- Visualize the optimized schedule output with minimized conflicts.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📄 Example Input
+```
+Nodes (Events/Tasks): 5
+Edges (Conflicting Tasks): [(0,1), (0,2), (1,2), (1,3), (2,3), (3,4)]
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Sample Output
+```
+Node 0 -> Color 1
+Node 1 -> Color 2
+Node 2 -> Color 3
+Node 3 -> Color 1
+Node 4 -> Color 2
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📷 Visual Representation
+The project provides a graphical representation of the scheduling process, making it easier to understand resource allocations and minimize conflicts.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🌟 Features
+✅ Efficient scheduling with minimal conflicts  
+✅ Multiple graph coloring algorithms for comparison  
+✅ Visual output for enhanced understanding  
+✅ Scalable for complex scheduling scenarios  
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🔎 Future Enhancements
+- Integration with real-world data sets (e.g., exam timetables)
+- Enhancing the visualization interface
+- Adding support for weighted graph scenarios
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🤝 Contributing
+Contributions are welcome! Feel free to submit issues or pull requests to improve the project.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📄 License
+This project is licensed under the **MIT License**.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📬 Contact
+For queries or collaborations, reach out at [anshikasaklani894@gmail.com](mailto:your.email@example.com).
