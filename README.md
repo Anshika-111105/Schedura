@@ -1,7 +1,5 @@
 # Optimization of Scheduling Problems using Graph Coloring Algorithms
 
-![Image](src/components/Image6.png)
-
 ## 📌 Introduction
 Scheduling problems are prevalent in various domains such as examination timetabling, task scheduling in operating systems, and resource allocation. To optimize such problems efficiently, **Graph Coloring Algorithms** provide an effective solution by minimizing conflicts and ensuring optimal resource utilization.
 
