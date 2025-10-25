@@ -30,10 +30,6 @@ The goal is to minimize conflicts in scheduling scenarios where resources such a
 ### 3. **DSATUR Algorithm**
 - Dynamically selects the vertex with the highest saturation degree for coloring.
 - Time Complexity: `O(V^2)`
-
----
-![Image](https://github.com/Anshika-111105/Optimization-of-Scheduling-Problems-using-Graph-Coloring-Algorithms/blob/main/Image3.png)
-
 ---
 ## ⚙️ Technologies Used
 - **HTML/CSS/JavaScript**
