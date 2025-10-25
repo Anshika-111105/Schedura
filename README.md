@@ -10,10 +10,6 @@ This project aims to implement graph coloring algorithms to optimize scheduling 
 - **Welsh-Powell Algorithm**
 - **DSATUR Algorithm**
 
-![Image](https://github.com/Anshika-111105/Optimization-of-Scheduling-Problems-using-Graph-Coloring-Algorithms/blob/main/Image1.png)
-
-![Image](https://github.com/Anshika-111105/Optimization-of-Scheduling-Problems-using-Graph-Coloring-Algorithms/blob/main/Image2.png)
-
 ---
 
 ## 🧩 Problem Statement
